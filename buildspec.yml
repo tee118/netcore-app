@@ -3,36 +3,24 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      dotnet: 3.1
+      dotnet: 5.0
     commands:
-      - echo Installing Docker...
-      - apt-get update
-      - apt-get install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common
-      - curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
-      - add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
-      - apt-get update
-      - apt-get install -y docker-ce docker-ce-cli containerd.io
-      - nohup /usr/bin/dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 --storage-driver=overlay2 &
-      - timeout 15 sh -c "until docker info; do echo .; sleep 1; done"
-      
+      - echo "Installing custom .NET Core version 5..."
   pre_build:
     commands:
-      - echo Logging in to Amazon ECR...
+      - echo "Logging in to Amazon ECR..."
       - aws ecr get-login-password --region eu-west-2 | docker login --username AWS --password-stdin 171139160358.dkr.ecr.eu-west-2.amazonaws.com
-      
   build:
     commands:
-      - echo Build started on `date`
+      - echo "Build started on `date`"
       - docker build -t backend-repo .
       - docker tag backend-repo:latest 171139160358.dkr.ecr.eu-west-2.amazonaws.com/backend-repo:latest
       - docker push 171139160358.dkr.ecr.eu-west-2.amazonaws.com/backend-repo:latest
-      - echo Generating imagedefinitions.json...
+      - echo "Generating imagedefinitions.json..."
       - printf '[{"name":"backend-container","imageUri":"171139160358.dkr.ecr.eu-west-2.amazonaws.com/backend-repo:latest"}]' > imagedefinitions.json
-      
   post_build:
     commands:
-      - echo Build completed on `date`
-      
+      - echo "Build completed on `date`"
 artifacts:
   files:
     - imagedefinitions.json
