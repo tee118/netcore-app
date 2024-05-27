@@ -3,9 +3,9 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      dotnet: 5.0
+      dotnet: 6.0
     commands:
-      - echo "Installing custom .NET Core version 5..."
+      - echo "Installing custom .NET Core version 6..."
   pre_build:
     commands:
       - echo "Logging in to Amazon ECR..."

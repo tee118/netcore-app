@@ -1,12 +1,12 @@
 # Build stage
-FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY . .
-RUN dotnet restore
-RUN dotnet publish -c Release -o /app/publish
+RUN dotnet restore "aspnet-core-dotnet-core.csproj"
+RUN dotnet publish "aspnet-core-dotnet-core.csproj" -c Release -o /app/publish
 
 # Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "YourAppName.dll"]
+ENTRYPOINT ["dotnet", "aspnet-core-dotnet-core.dll"]
