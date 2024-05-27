@@ -21,7 +21,7 @@ phases:
       - docker tag backend-repo:latest 171139160358.dkr.ecr.eu-west-2.amazonaws.com/backend-repo:latest
       - docker push 171139160358.dkr.ecr.eu-west-2.amazonaws.com/backend-repo:latest
       - echo Generating imagedefinitions.json...
-      - printf '[{"name":"dotnetapp","imageUri":"171139160358.dkr.ecr.eu-west-2.amazonaws.com/backend-repo:latest"}]' > imagedefinitions.json
+      - printf '[{"name":"backend-container","imageUri":"171139160358.dkr.ecr.eu-west-2.amazonaws.com/backend-repo:latest"}]' > imagedefinitions.json
   post_build:
     commands:
       - echo Build completed on `date`
