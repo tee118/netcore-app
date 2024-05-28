@@ -31,6 +31,11 @@ Resources:
           ToPort: 443
           CidrIp: 0.0.0.0/0
 
+  S3ArtifactBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "my-pipeline-artifact-store-${AWS::StackName}-${AWS::Region}-${AWS::AccountId}"
+
   ECSCluster:
     Type: AWS::ECS::Cluster
     Properties:
@@ -38,31 +43,66 @@ Resources:
 
   ECSService:
     Type: AWS::ECS::Service
+    DependsOn: ECSTaskDefinition
     Properties:
       Cluster: !Ref ECSCluster
-      TaskDefinition: !Ref ECSTaskDefinition
-      DesiredCount: 2
+      DesiredCount: 0 # Start with 0
       LaunchType: FARGATE
+      TaskDefinition: !Ref ECSTaskDefinition
       NetworkConfiguration:
         AwsvpcConfiguration:
+          AssignPublicIp: ENABLED
           Subnets:
             - !Ref Subnet
           SecurityGroups:
             - !Ref SecurityGroup
+
+  ECSTaskExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ecs-tasks.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: ECSTaskExecutionPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ecr:GetAuthorizationToken
+                  - ecr:BatchCheckLayerAvailability
+                  - ecr:GetDownloadUrlForLayer
+                  - ecr:BatchGetImage
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                  - logs:CreateLogGroup
+                  - ecs:CreateNetworkInterface
+                  - ecs:DeleteNetworkInterface
+                  - ec2:CreateNetworkInterface
+                  - ec2:DeleteNetworkInterface
+                  - ec2:DescribeNetworkInterfaces
+                Resource: '*'
 
   ECSTaskDefinition:
     Type: AWS::ECS::TaskDefinition
     Properties:
       Family: my-task
       NetworkMode: awsvpc
+      RequiresCompatibilities:
+        - FARGATE
+      Cpu: "256"
+      Memory: "512"
+      ExecutionRoleArn: !GetAtt ECSTaskExecutionRole.Arn
       ContainerDefinitions:
         - Name: backend-container
           Image: 171139160358.dkr.ecr.eu-west-2.amazonaws.com/backend-repo:latest
-          Memory: 512
-          Cpu: 256
           PortMappings:
             - ContainerPort: 80
-              HostPort: 80
 
   CodeCommitRepo:
     Type: AWS::CodeCommit::Repository
@@ -75,8 +115,8 @@ Resources:
     Properties:
       Name: my-build-project
       Source:
-        Type: CODECOMMIT
-        Location: !GetAtt CodeCommitRepo.CloneUrlHttp
+        Type: CODEPIPELINE
+        BuildSpec: buildspec.yml
       Artifacts:
         Type: CODEPIPELINE
       Environment:
@@ -92,6 +132,9 @@ Resources:
     Type: AWS::CodePipeline::Pipeline
     Properties:
       RoleArn: !GetAtt CodePipelineRole.Arn
+      ArtifactStore:
+        Type: S3
+        Location: !Ref S3ArtifactBucket
       Stages:
         - Name: Source
           Actions:
