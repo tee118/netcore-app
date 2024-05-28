@@ -1,0 +1,1125 @@
+{
+  "Version": 1,
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NV0xhhd85/0Wq78Ofqgej9zLoqtWxUnjoTXPVBWtqFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:42 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "css/site.min.css",
+      "AssetFile": "css/site.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dexY7AKhtP0aAn7UIzpkkxq2d/X6EOi8+dVWbgpPGwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:42 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qU+KhVPK6oQw3UyjzAHU4xjRmCj3TLZUU/+39dni9E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:42 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "images/successCloudNew.svg",
+      "AssetFile": "images/successCloudNew.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gXd8v3vx0p3LRR4M0GXb08vz4tYvcApA29Vc5ZPJlI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "images/tweetThis.svg",
+      "AssetFile": "images/tweetThis.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1074"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uPLLoSEyVY3+FkOhEiBk6AVx5Ewk1kUwUKJMbOKSpgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4TFpxvZBRwxBiTkpn2L/q+zBuyBxK+Rvd7M1cA7jP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "js/site.min.js",
+      "AssetFile": "js/site.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/LICENSE",
+      "AssetFile": "lib/bootstrap/LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e9q0SUxz49cnGnDTlZR6nrKmjwjZh0D8IwiEPjGSmPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCazLItaM+Zz5UEzu9HNzlgWhXlvknCzjdE45LBeTns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2MgjO0zpqYZscatQSGWJ9Io9U8EjvXk0iYygYz1Q+Ms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D9AvR0EzkNZoWZVSvI3ch+uf/Z5izrIpcbsykVphwPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kZzlXLpTC0WvL0AL7nXf07BJ28WnY/1H/HrKgS68Q4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Za8TaoAYg1BzmU9Re7Fiy6Hh3ac4jswPE1MKeTs95bw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3e6awqXPijx918dzyzbbHKwaDBTsIQ8Us38QY30GRms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dARYuC3pd0wa/7R4Hkt/sR2zfLHCgbnVAQ2sPwhNe0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dIm3VZXztwbIlhOzVt+ggg5Dvhp28MJQGJoweOH9cAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192363"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sWhRpLEAYqLvzExU626sKV6yHCxyaW/mvGjyEUOCzvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "492048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CMAZj3JKoZUVYSxVPS/FeGatmYSvHkujo5oaZLNXx0o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "155758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "625953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xMZ0SaSBYZSHVjFdZTAT/IjRExRIxSriWcJLcA9nkj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "AssetFile": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pVreZ67fRaATygHF6T+gQtF1NI700W9kzeAivu6au9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "AssetFile": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "402249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3UpdqvoTc6M2sug8WtFhr/m3tg+4zLMgoMgjqpn5n1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "AssetFile": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "AssetFile": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8i3JQdKYQQcJzmbkwhwY+1XPe7Utf1LdBnYZCvNmKWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.js",
+      "AssetFile": "lib/bootstrap/dist/js/bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "131637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pl1bSrtlqtN/MCyW8XUTYuJCKohp9/iJESVW1344SBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
+      "AssetFile": "lib/bootstrap/dist/js/bootstrap.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R81NA2DWe8EPjZ2OUhieXYgvvXBnm78oMdeqOtSEr7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "AssetFile": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "AssetFile": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "190253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vMfBbEXmojM9AaHrIyKSo+20n5JM7KMyJkBCfL4pgL4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetFile": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bJBFwc85FxNITit+4+dmzq5fRpbBEauvU+1eI+EpziQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetFile": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5867"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4xJOkIkaeBplN5tlcvxnCbBz34o5/kzpXcpjNkonVos=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery-validation/LICENSE.md",
+      "AssetFile": "lib/jquery-validation/LICENSE.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:43 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetFile": "lib/jquery-validation/dist/additional-methods.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0IXY0aA9BMZHp1azQSgmyQTG4+8NwTeDlKmjpQYrcXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:44 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetFile": "lib/jquery-validation/dist/additional-methods.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:44 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetFile": "lib/jquery-validation/dist/jquery.validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yazfaIh2SXu8rPenyD2f36pKgrkv5XT+DQCDpZ/eDao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:44 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetFile": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:44 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery/LICENSE.txt",
+      "AssetFile": "lib/jquery/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kz7YukJEI6ULAj5yhTDZS8OFz8fDKK1lo9/unHwFMcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:44 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.js",
+      "AssetFile": "lib/jquery/dist/jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:44 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.js",
+      "AssetFile": "lib/jquery/dist/jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:44 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.map",
+      "AssetFile": "lib/jquery/dist/jquery.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 May 2024 16:55:44 GMT"
+        }
+      ],
+      "EndpointProperties": []
+    }
+  ]
+}
